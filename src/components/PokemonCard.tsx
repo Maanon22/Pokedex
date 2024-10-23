@@ -1,4 +1,11 @@
-function PokeCard({pokemon}) { 
+interface pokemonListProps{
+    pokemon:{
+        name:string;
+        imgSrc?:string
+    }
+}
+
+function PokeCard ({pokemon}: pokemonListProps) { 
     //const pokemon={name:"mew"};
     //console.log(props)
     return(
