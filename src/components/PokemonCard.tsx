@@ -6,8 +6,6 @@ interface pokemonListProps{
 }
 
 function PokeCard ({pokemon}: pokemonListProps) { 
-    //const pokemon={name:"mew"};
-    //console.log(props)
     return(
 <figure>
 {pokemon.imgSrc ? (<img src={pokemon.imgSrc} alt={pokemon.name}/>):(<p>???</p>)}
